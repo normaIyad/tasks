@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+/* list Items start */
+.listItems h1{
+    text-align: center;
+     font-weight: 900;
+     color: #333;
+     font-size: 45px;
+}
+.listItems ul {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #c88f8f;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+.listItems li{
+    font-weight: bold;
+    color: rgba(0, 128, 0, 0.65);
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+.listItems li:hover {
+    background-color: #ddd;
+}
+
+.listItems li p {
+    margin-bottom: 10px;
+    color: black;
+    font-weight: 200;
+}
+.listItems li button{
+    margin-top: 10px;
+    padding:  10px;
+    background-color: #50b7337a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.listItems li button:hover {
+    background-color: #269711;
+}
+/* list Itemss end */
